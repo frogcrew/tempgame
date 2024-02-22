@@ -45,17 +45,17 @@
   font-size: 25px;
   padding: 30px;
   border-radius: 10px;
-  color: white;
+  color: #383838;
   background-color: pink;
   cursor: pointer;
   border: none;
 }
 .god-mode-button {
   font-family: "Bebas Neue";
-  font-size: 25px;
+  font-size: 20px;
   padding: 30px;
   border-radius: 10px;
-  color: white;
+  color: #383838;
   background-color: pink;
   cursor: pointer;
   border: none;
@@ -68,8 +68,8 @@
   background-color: #ebbac3;
 }
 
-.spin-button:hover {
-  background-color: #e74c3c; 
+.spin-button:hover, .god-mode-button:hover {
+  background-color: #ffeaed; 
 
 }
 
@@ -78,6 +78,7 @@
   height: 20px;
   margin-top: 40px;
   font-size: 20px;
+  color: #383838;
 }
 
 .winnings {
@@ -86,14 +87,7 @@
 }
 
 .control-ui {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.button-base {
-  margin-right: 15px;
+  margin-top: 15px;
 }
 
 .symbol {
@@ -119,6 +113,6 @@
   flex-direction: column;
 }
 
-.ml-auto {
-  margin-left: auto;
+.mt-20 {
+  margin-top: 20px;
 }
