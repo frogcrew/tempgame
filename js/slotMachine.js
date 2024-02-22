@@ -42,7 +42,6 @@ class SlotMachine {
 
   checkWin() {
     const finalSymbols = [];
-    console.log("finalSymbols", finalSymbols)
     this.reels.forEach((reel) => {
       let lastIndex = reel.currentSymbolIndex - 1;
       if(reel.currentSymbolIndex === 0) {
